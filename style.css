@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+  background-color: blue; 
+  color: aliceblue; 
+  padding: 16px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.logo li{
+    list-style: none;
+    font-size: 17px;
+    margin-inline: 20px;
+    
+}
+
+.searchBar{
+    display: flex;
+}
+
+.searchBar input{
+    font-size: 17px;
+    width: 270px;
+    padding: 6px;
+    border-radius: 50px;
+    border: none;
+    margin-inline: 7px;
+
+}
+
+.searchBar button{
+    width: 60px;
+    height: 30px;
+    background-color: blueviolet;
+}
