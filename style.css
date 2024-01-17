@@ -158,7 +158,7 @@ main {
     margin-block: 12px;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 700px) {
     .main-nav {
         flex-direction: column;
         align-items: center;
@@ -191,3 +191,6 @@ main {
         width: 100%;
     }
 }
+
+
+
