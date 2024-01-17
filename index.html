@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <nav>
-            <div class="logo">
-                <h1>News Channel</h1>
 
-                <li>Politics</li>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!--font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="image/logo.png" alt="logo" width="120px" />
+        <div class="inputSearch">
+            <input type="text" placeholder="Search here...." />
+            <i class="fa-solid fa-search"></i>
+        </div>
+
+        <nav>
+            <ul>
                 <li>Technology</li>
                 <li>Sports</li>
-
-            </div>
-
-            <div class="searchBar">
-                <input type="text" placeholder="search here...." id="inputData">
-                <button>search</button>
-            </div>
+                <li>Movies</li>
+                <li>Food</li>
+                <li>Business</li>
+            </ul>
         </nav>
-    </div>
+    </header>
     <script src="script.js"></script>
 </body>
+
 </html>
