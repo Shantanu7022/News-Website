@@ -191,3 +191,26 @@ main {
         width: 100%;
     }
 }
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 30, 60);
+}
+
+.icons .fa-brands{
+    color: rgb(255, 255, 255);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
+.fa-regular{
+    color: rgb(192, 9, 9);
+
+}
